@@ -17,8 +17,11 @@ app.set('view engine', 'handlebars');
 app.set('views', './app/views');
 
 app.get("/", function(request, response){
+  const catImageFiles = [1, 2, 3, 4, 5, 6];
+
   var motivation = pickOne(motivations);
-  var image = "";
+  var image = pickOne(catImageFiles)
+
   response.render('motivation', { motivation, image });
 });
 
