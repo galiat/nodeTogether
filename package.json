@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/galiat/nodeTogether/issues"
   },
-  "homepage": "https://github.com/galiat/nodeTogether#readme"
+  "homepage": "https://github.com/galiat/nodeTogether#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
